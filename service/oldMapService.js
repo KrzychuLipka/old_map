@@ -23,7 +23,7 @@ async function save(oldMap) {
 
 async function update(id, oldMap) {
   const result = await db.query(
-    `UPDATE ${tableName} SET ${fieldUrl}="${oldMap.url}", ${fieldMapName}="${oldMap.name}" WHERE ${fieldId}=${oldMap.id}` 
+    `UPDATE ${tableName} SET ${fieldUrl}="${oldMap.url}", ${fieldMapName}="${oldMap.name}" WHERE ${fieldId}=${id}` 
   );
   let message = 'Error during updating map data.';
   if (result.affectedRows) {
