@@ -10,9 +10,9 @@ app.use(
   })
 );
 app.get("/", (req, res) => {
-  res.json({ message: "Hello World!" });
+  res.json({ message: "Hello World!"});
 });
-//app.use("/users", userRouter);
+app.use("/oldMapData", oldMapRouter);
 app.use((error, req, res, next) => {
   const statusCode = error.statusCode || 500;
   console.error(error.message, error.stack);
