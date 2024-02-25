@@ -1,9 +1,9 @@
 const config = {
   db: {// TODO Ensure the safety of
-    host: "sql309.infinityfree.com",
-    user: "if0_35958346",
-    password: "24IrEVUbk6",
-    database: "if0_35958346_old_map",
+    host: "sql11.freemysqlhosting.net",
+    user: "sql11686645",
+    password: "XwZSZvxf6H",
+    database: "sql11686645",
   }
 };
 module.exports = config;
