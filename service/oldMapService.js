@@ -1,6 +1,5 @@
 const db = require('../db');
 const utils = require('../utils');
-const config = require('../config');
 const tableName = 'old_map';
 const fieldId = 'id';
 const fieldUrl = 'url';
