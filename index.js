@@ -15,6 +15,8 @@ app.use((req, res, next) => {
     // Set up CORS (replace "*" with specific allowed origins)
     res.header("Access-Control-Allow-Origin", "*");
     // Access-Control-Allow-Headers - determines what additional headers are allowed in requests passed by the browser.
+    // This limits potential attacks such as the injection of unsafe headers.
+    //
     // Origin - Specifies the source from which the request comes (e.g. domain, port).
     // X-Requested-With - Servers can use this header to recognize whether the request comes from JavaScript code or a simple browser click.
     // Content-Type - Specifies the type of content transferred in the request body.
