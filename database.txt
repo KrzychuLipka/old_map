@@ -1,0 +1,15 @@
+e-mail:
+r7243316@gmail.com
+Test123!
+
+hosting MySQL:
+https://www.freemysqlhosting.net/
+r7243316@gmail.com
+Test123!
+
+DB connection:
+Server: sql11.freemysqlhosting.net
+Name: sql11701361
+Username: sql11701361
+Password: W239JZx3KP
+Port number: 3306
