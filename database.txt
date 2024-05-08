@@ -1,7 +1,7 @@
 DB config
 
 e-mail:
-r7243316@gmail.com
+render199191@gmail.com
 Test123!
 
 hosting MySQL:
@@ -11,7 +11,7 @@ Test123!
 
 DB connection:
 Server: sql11.freemysqlhosting.net
-Name: sql11701361
-Username: sql11701361
-Password: W239JZx3KP
+Name: sql11705005
+Username: sql11705005
+Password: pLI65fG33M
 Port number: 3306
